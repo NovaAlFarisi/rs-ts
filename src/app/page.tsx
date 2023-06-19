@@ -10,11 +10,11 @@ import Illustration from '@/components/Illustration';
 import HospitalTypeButton from '@/components/HospitalTypeButton'
 import HospitalCard from '@/components/HospitalCard';
 import { DistrictInterface, DistrictType, ProvincesInterface, ProvincesType } from '@/interfaces/location';
-import { HospitalInterface, HospitalsType } from '@/interfaces/hospital';
+import { HospitalCategoryType, HospitalInterface, HospitalsType } from '@/interfaces/hospital';
 
 export default function Home() {
 
-  const [type, selectedType] = useState<'non-covid' | 'covid'>('non-covid')
+  const [type, selectedType] = useState<HospitalCategoryType>('non-covid')
   const [provincesData, setProvincesData] = useState<ProvincesType>([])
   const [districtsData, setDisctrictsData] = useState<DistrictType>([])
   const [selectedProvince, setSelectedProvince] = useState<ProvincesInterface>()

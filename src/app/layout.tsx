@@ -15,6 +15,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <title>Cek IGD Covid</title>
+        <link rel="icon" href="/hospital.png"/>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="description" content="Info Rumah Sakit Covid dan Non-Covid"/>
+        <meta name="keywords" content="IGD Covid, Corona, Corona Virus, Rumah Sakit Corona, Rumah Sakit Covid, Rumah Sakit Penuh, IGD Tersedia, Rumah Sakit Terdekat"/>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-HFXJ8RB0SJ"></script>
+        <script async src="/ga.js"></script>
+        <script data-ad-client="ca-pub-5435603384247379" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )

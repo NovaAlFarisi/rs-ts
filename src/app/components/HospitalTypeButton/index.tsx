@@ -1,4 +1,4 @@
-import { HospitalCategoryType } from "@/app/interfaces/hospital";
+import { HospitalCategoryType } from "@/interfaces/hospital";
 import { ButtonHTMLAttributes } from "react";
 
 interface HospitalTypeProps {

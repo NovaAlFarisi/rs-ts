@@ -73,7 +73,7 @@ export default function Home() {
     retrieveProvinces();
   }, []);
 
-  const isDistrictFilled = districtsData.length > 0
+  const isDistrictFilled = districtsData.length === 0
   const filterButtonText = appLoading ? 'Memuat ...' : 'Filter'
   return (
     <main className="mx-auto md:w-[480px] w-full h-screen px-5 rounded-2xl border-black">
